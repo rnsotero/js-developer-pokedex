@@ -45,3 +45,7 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+function redirectToPokemonDetail(pokemon) {
+    window.location.href = `./pokemon-detail.html?pokemon=${pokemon}`
+}
